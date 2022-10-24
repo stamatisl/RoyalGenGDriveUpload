@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "7FPlxtF4bilX52yv4x+u4jr4enUYq0V6dBa2e/YpgznGjymMoGHcna89MKmgl9e4wPApq7x949w1vGMltPiplQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\s.litinakis\\source\\repos\\RoyalGenGDriveUpload\\RoyalGenGDriveUpload\\RoyalGenGDriveUpload.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\s.litinakis\\.nuget\\packages\\google.apis\\1.57.0\\google.apis.1.57.0.nupkg.sha512",
+    "C:\\Users\\s.litinakis\\.nuget\\packages\\google.apis.auth\\1.57.0\\google.apis.auth.1.57.0.nupkg.sha512",
+    "C:\\Users\\s.litinakis\\.nuget\\packages\\google.apis.core\\1.57.0\\google.apis.core.1.57.0.nupkg.sha512",
+    "C:\\Users\\s.litinakis\\.nuget\\packages\\google.apis.drive.v3\\1.57.0.2789\\google.apis.drive.v3.1.57.0.2789.nupkg.sha512",
+    "C:\\Users\\s.litinakis\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
