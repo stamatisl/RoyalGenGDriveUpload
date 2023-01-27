@@ -34,24 +34,24 @@ namespace FileUploader
             try
             {
                 // "SERVICE_ACCOUNT_EMAIL_HERE";
-                String serviceAccountEmail = "[REMOVED FOR SECURITY REASONS]@blahblah.iam.gserviceaccount.com";
+                String serviceAccountEmail = "[OMITTED FOR SECURITY REASONS]@blahblah.iam.gserviceaccount.com";
                 string[] SCOPES = { "https://www.googleapis.com/auth/drive" };
 
                 // Scope and user email id which you want to impersonate
                 var initializer = new ServiceAccountCredential.Initializer(serviceAccountEmail)
                 {
                     Scopes = SCOPES,
-                    User = "[REMOVED FOR SECURITY REASONS]"
+                    User = "[OMITTED FOR SECURITY REASONS]"
                 };
 
                 //get private key, from .JSON file
-                var credential = new ServiceAccountCredential(initializer.FromPrivateKey("-----BEGIN PRIVATE KEY-----\n[REMOVED FOR SECURITY REASONS]\n-----END PRIVATE KEY-----\n"));
+                var credential = new ServiceAccountCredential(initializer.FromPrivateKey("-----BEGIN PRIVATE KEY-----\n[OMITTED FOR SECURITY REASONS]\n-----END PRIVATE KEY-----\n"));
                 
                 // Create Drive API service.
                 var service = new DriveService(new BaseClientService.Initializer
                 {
                     HttpClientInitializer = credential,
-                    ApplicationName = "[REMOVED FOR SECURITY REASONS]"
+                    ApplicationName = "[OMITTED FOR SECURITY REASONS]"
                 });
             
 
