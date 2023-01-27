@@ -1,3 +1,3 @@
 # RoyalGenGDriveUpload
 
-Upload files on Google Drive in C# using a service account 
+Upload files to Google Drive headless using C# and a service account 
